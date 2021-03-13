@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        api: 'http://localhost:8000/api', 
-        passwordResetRedirect: 'http://localhost:3000/login', 
+        api: 'https://lucid-beaver-25f2f9.netlify.app/api', 
+        passwordResetRedirect: 'https://lucid-beaver-25f2f9.netlify.app/login', 
     },
 };
