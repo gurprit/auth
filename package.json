@@ -1,18 +1,29 @@
 {
-
-"scripts": {
+  "homepage": "http://gurprit.github.io/auth",
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start", 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build", 
-    "dev" : "next dev",  
-    "build" : "next build", 
-    "start" : "next start", 
-},
-    
-  "dependencies": {
-    "bootstrap": "^4.6.0"
+    "deploy": "gh-pages -d build",     
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  }
- 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "antd": "^4.13.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "firebase": "^8.2.9",
+    "next": "^10.0.8",
+    "nookies": "^2.5.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-toastify": "^7.0.3"
+  },
+  "description": ""
 }
